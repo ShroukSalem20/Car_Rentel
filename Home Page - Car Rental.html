@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr. Car Rental</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="images/Logo Tap/car-placeholder.png" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="Home Page - Car Rental.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  </head>
+
+ 
+
+  <body>
+    <div class="car-rental" id="Home_Page">
+      <div class="h1">
+        <h1>
+          EXCLUSIVE & LOW COST <br />
+          <span class="CR">CAR RENTAL</span>
+        </h1>
+      </div>
+      <div class="h2">
+        <h2>
+          Find Affordable <span class="cr">Rental Cars</span> Anytime, Anywhere!
+        </h2>
+      </div>
+      <div class="p">
+        <p>
+          Experience exclusive car rentals at
+          <span id="up">unbeatable prices</span>, offering <br />
+          <span id="pc"
+            >premium vehicles <span id="up">with exceptional service</span> and
+            convenience!</span
+          >
+        </p>
+      </div>
+      <a href="/Home Page - Car Rental.html#our-fleet">View Our Fleet</a>
+      <p class="p1">Enquire</p>
+      <p class="p2">Drive</p>
+      <div class="loading-icon">
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+          type="module"></script>
+
+        <dotlottie-player
+          src="https://lottie.host/5399a30d-d05f-4dac-bffe-69b66b561dbc/2k5w3lIffx.json"
+          background="transparent"
+          speed="0.90"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay></dotlottie-player>
+      </div>
+      <div class="car-icon">
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+          type="module"></script>
+
+        <dotlottie-player
+          src="https://lottie.host/94079031-c7d8-40e3-82f2-466403c5ee16/MYxP2O3stT.json"
+          background="transparent"
+          speed="0.90"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay></dotlottie-player>
+      </div>
+    </div>
+    <!-- <div class="search-container">
+      <div class="nav">
+        <h2>Search for Cheap Rental Cars Wherever You Are</h2>
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+          type="module"></script>
+
+        <dotlottie-player
+          src="https://lottie.host/1fc62e6e-46af-4046-92ab-a0eed57c89af/4DCUHCLjV5.json"
+          background="transparent"
+          speed="1"
+          style="width: 100px; height: 70px"
+          loop
+          autoplay></dotlottie-player>
+      </div>
+      <br />
+      <hr class="hr-form" />
+      <br />
+      <form class="search-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="pickup-location">Picking Up Location</label>
+            <div class="input-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <input type="text" id="pickup-location" required />
+              <label for="Airport or Anywhere">Airport or Anywhere</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pickup-date">Picking Up Date</label>
+            <input type="date" id="pickup-date" required />
+          </div>
+          <div class="form-group">
+            <label for="pickup-hour">Picking Up Hour</label>
+            <input type="time" id="pickup-hour" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="dropoff-location">Dropping Off Location</label>
+            <div class="input-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <input type="text" id="pickup-location" required />
+              <label for="Airport or Anywhere">Airport or Anywhere </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="dropoff-date">Dropping Off Date</label>
+            <input type="date" id="dropoff-date" required />
+          </div>
+          <div class="form-group">
+            <label for="dropoff-hour">Dropping Off Hour</label>
+            <input type="time" id="dropoff-hour" required />
+          </div>
+        </div>
+        <br />
+        <hr class="hr-form" />
+        <br />
+        <div class="latest-home">
+          <button type="submit" class="find-car-button">Find Car</button>
+          <a href="#" class="advanced-search">+ Advanced Search</a>
+        </div>
+      </form>
+    </div> -->
+
+    <!------------------------------------------ " Section Of Our Dealings " --------------------------------------->
+
+    <section class="our-dealings">
+      <div>
+        <h1>10+</h1>
+        <h3>Years of Experience</h3>
+      </div>
+      <div>
+        <h1>1000+</h1>
+        <h3>Happy Clients</h3>
+      </div>
+      <div>
+        <h1>200+</h1>
+        <h3>Vehicles</h3>
+      </div>
+      <div>
+        <h1>10+</h1>
+        <h3>Locations</h3>
+      </div>
+    </section>
+
+    <!--------------------------------------------------- " Section - Car Types " ------------------------------------------------>
+
+    <section class="featured-car" id="our-fleet">
+      <section class="section-medium" id="next-button">
+        <h1>Our Fleet</h1>
+        <div class="all-dropdown">
+          <div class="dropdown-list">
+            <div>
+              <button class="button-content">
+                <h4>Select Car Type</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+            </div>
+            <div class="dropdown-content">
+              <a
+                href="/Car Fillter Pages/Car Type/HTML/SUV Type.html#suv-cards">
+                SUV
+              </a>
+              <a
+                href="/Car Fillter Pages/Car Type/HTML/Luxury Type.html#luxury-cards">
+                Luxury
+              </a>
+              <a
+                href="/Car Fillter Pages/Car Type/HTML/Sports Type.html#sport-cards">
+                Sports
+              </a>
+              <a
+                href="/Car Fillter Pages/Car Type/HTML/Convertible Type.html#convertible-cards">
+                Convertible
+              </a>
+            </div>
+          </div>
+          <div class="dropdown-list">
+            <div>
+              <button class="button-content">
+                <h4>Select Car Brand</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+            </div>
+            <div class="dropdown-content">
+              <a
+                href="/Car Fillter Pages/Car Brand/HTML/Porsche Car.html#porsche-car"
+                >Porsche</a
+              >
+              <a href="/Car Fillter Pages/Car Brand/HTML/BMW Car.html#bmw-car"
+                >BMW</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Brand/HTML/Mercedes Car.html#mercedes-car"
+                >Mercedes Benz</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Brand/HTML/Ferrari Car.html#ferrari-car"
+                >Ferrari</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Brand/HTML/Rolls-Royce Car.html#rolls-royce-car"
+                >Rolls-Royce</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Brand/HTML/McLaren Car.html#mclaren-car"
+                >McLaren</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Brand/HTML/Lamborghini Car.html#lamborghini-car"
+                >Lamborghini</a
+              >
+            </div>
+          </div>
+          <div class="dropdown-list">
+            <div>
+              <button class="button-content">
+                <h4>Select Location</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+            </div>
+            <div class="dropdown-content">
+              <a
+                href="/Car Fillter Pages/Car Location/HTML/Egypt Location.html#egypt-location"
+                >Egypt</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Location/HTML/Saudi Arabia Location.html#saudi-arabia-location"
+                >Saudi Arabia</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Location/HTML/Duabi Location.html#dubai-location"
+                >Dubia</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Location/HTML/Canada Location.html#canada-location"
+                >Canada</a
+              >
+            </div>
+          </div>
+          <div class="dropdown-list">
+            <div>
+              <button class="button-content">
+                <h4>Select Feature</h4>
+                <i class="fa-solid fa-angle-down"></i>
+              </button>
+            </div>
+            <ul class="dropdown-content">
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Sunroof Feature.html#sunroof-feature"
+                >Sunroof</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Wireless Charging Feature.html#wireless-charging-feature"
+                >Wireless Charging</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Sensor Parking Feature.html#sensor-parking-feature"
+                >Parking Sensors</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Rearview Camera Feature.html#rearview-camera-feature"
+                >Rearview Camera</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Built-in GPS Feature.html#built-in-gps-feature"
+                >Built-in GPS</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Cruise Control Feature.html#cruise-control-feature"
+                >Cruise Control</a
+              >
+              <a
+                href="/Car Fillter Pages/Car Feature/HTML/Bluetooth Audio Feature.html#bluetooth-audio-feature"
+                >Bluetooth Audio</a
+              >
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------- " Section Of Featured Car " -------------------------------->
+
+      <div class="head-of-featured">
+        <!-- <a href="Select Car - Page.html#next-button">
+          <button type="button"><strong>Show All</strong></button>
+        </a> -->
+      </div>
+      <button class="left-arrow" onclick="moveLeft()">
+        <i class="fa-solid fa-caret-left"></i>
+      </button>
+      <!-- Left arrow -->
+      <div class="cards-wrapper">
+        <div class="cards-container">
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-2.html#car-details-2"
+                ><img
+                  src="images/Car Card Images/Lamborghini Huracan-2022.jpg"
+                  alt="" />
+                <h5>2022</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>Lamborghini Huracán</h4>
+                <h6>
+                  <span>USD</span> <strong>$2,299</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>6500</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Automatic</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>2</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>1</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-2.html#car-details-2"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-3.html#car-details-3"
+                ><img
+                  src="images/Car Card Images/McLaren Aonic-2024.png"
+                  alt="" />
+                <h5>2024</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>McLaren Aonic SUV</h4>
+                <h6>
+                  <span>USD</span> <strong>$1,399</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>6000</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Manual</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>5</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>3</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-3.html#car-details-3"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-4.html#car-details-4"
+                ><img
+                  src="images/Car Card Images/G CLASS G63-2019.jpg"
+                  alt="" />
+                <h5>2019</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>G-Class G63</h4>
+                <h6>
+                  <span>USD</span> <strong>$3,499</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>6500</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Automatic</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>7</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>4</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-4.html#car-details-4"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-5.html#car-details-5"
+                ><img
+                  src="images/Car Card Images/Rolls-Royce Wraith-2020.jpg"
+                  alt="" />
+                <h5>2020</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>Rolls-Royce Wraith</h4>
+                <h6>
+                  <span>USD</span> <strong>$4,999</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>5500</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Automatic</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>4</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>3</h6>
+                </div>
+              </div>
+              <a href="#" class="card-button card-button-a">See Full Details</a>
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-1.html#car-details"
+                ><img
+                  src="../images\Car Card Images\6677ef5c2f59c6148debf848_porsche-cayenne-p-500.jpg"
+                  alt="" />
+                <h5>2024</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>Porsche Cayenne Coupe</h4>
+                <h6>
+                  <span>USD</span> <strong>$3,999</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>5800</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Automatic</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>5</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>4</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-1.html#car-details"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-6.html#car-details-6"
+                ><img
+                  src="images\Car Card Images\666f8fbd909ca9fc3a1a6f24_bmw-m4.jpg"
+                  alt="" />
+                <h5>2019</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>BMW M4 Competition</h4>
+                <h6>
+                  <span>USD</span> <strong>$1,299</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>6000</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Automatic</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>5</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>6</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-6.html#car-details-6"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-7.html#car-details-7"
+                ><img
+                  src="../images\Car Card Images\666f9021d150b5c5b96e49b6_ferrari-458.jpg"
+                  alt="" />
+                <h5>2021</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>Ferrari 458</h4>
+                <h6>
+                  <span>USD</span> <strong>$3,900</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>6100</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Manual</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>2</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>2</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car - Page-7.html#car-details-7"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="card-image">
+              <a
+                href="/Car Details Pages/HTML/Select Car -Page-8.html#car-details-8"
+                ><img
+                  src="../images\Car Card Images\6677ef5c2f59c6148debf849_porsche-992-p-500.jpg"
+                  alt="" />
+                <h5>2024</h5></a
+              >
+            </div>
+            <div class="card-latest">
+              <div class="mid-card">
+                <h4>Porsche 992</h4>
+                <h6>
+                  <span>USD</span> <strong>$2,100</strong>
+                  <span>/ DAY</span>
+                </h6>
+              </div>
+              <div class="card-icon">
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf80e_mileage.svg"
+                    alt="" />
+                  <h6>5500</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82b_transmission.svg"
+                    alt="" />
+                  <h6>Automatic</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf82a_seats.svg"
+                    alt="" />
+                  <h6>2</h6>
+                </div>
+                <div class="card-icon-details">
+                  <img
+                    src="https://cdn.prod.website-files.com/6677ef5c2f59c6148debf7e0/6677ef5c2f59c6148debf7fd_baggage.svg"
+                    alt="" />
+                  <h6>2</h6>
+                </div>
+              </div>
+              <a
+                href="/Car Details Pages/HTML/Select Car -Page-8.html#car-details-8"
+                class="card-button card-button-a"
+                >See Full Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="right-arrow" onclick="moveRight()">
+        <i class="fa-solid fa-caret-right"></i>
+      </button>
+      <!-- Right arrow -->
+    </section>
+
+    <!------------------------------------- " Section Of Our Locations " -------------------------------->
+
+    <section class="our-location">
+      <h2>Our Locations</h2>
+      <div class="location-images">
+        <div class="images">
+          <a href="https://maps.app.goo.gl/1XjtuxgoUv88KWZGA" target="_blank"
+            ><img
+              src="images/Images-For-Our-Locations/صور-اماكن-سياحية-في-مصر-5.jpg"
+              alt=""
+              id="image1"
+          /></a>
+          <h5>Egypt</h5>
+        </div>
+        <div class="images">
+          <a href="https://maps.app.goo.gl/RsMVk6z89bxwwgiHA" target="_blank"
+            ><img src="images/Images-For-Our-Locations/الرياض.jpg" alt=""
+          /></a>
+          <h5>Saudi Arabia</h5>
+        </div>
+        <div class="images">
+          <a href="https://maps.app.goo.gl/gyuGQgD9cebDw76dA" target="_blank"
+            ><img src="images/Images-For-Our-Locations/دبي.jpg" alt=""
+          /></a>
+          <h5>Dubai</h5>
+        </div>
+        <div class="images">
+          <a href="https://maps.app.goo.gl/LoDmFjGhtaR4Q41LA" target="_blank"
+            ><img src="images/Images-For-Our-Locations/كندا.jpg" alt=""
+          /></a>
+          <h5>Canada</h5>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------- " Section Of Our Service " -------------------------------->
+
+    <section class="our-service">
+      <h2>How to Rent a Car</h2>
+      <div class="service-icons">
+        <div class="service-container">
+          <div class="border-img">
+            <img
+              src="images/Icon-For-Our-Services/car-front-in-magnifier-glass.png"
+              alt="" />
+          </div>
+          <h3>Explore Our Fleet</h3>
+          <p>
+            <strong
+              >Explore our fleet of premium, modern, <br />
+              reliable vehicles today.</strong
+            >
+          </p>
+        </div>
+
+        <div class="service-container">
+          <div class="border-img">
+            <img src="images/Icon-For-Our-Services/car_verified.png" alt="" />
+          </div>
+          <h3>Select Your Vehicle</h3>
+          <p>
+            <strong
+              >Select your vehicle wisely for smooth, <br />
+              reliable, efficient travel.
+            </strong>
+          </p>
+        </div>
+
+        <div class="service-container">
+          <div class="border-img">
+            <img src="images/Icon-For-Our-Services/check.png" alt="" />
+          </div>
+          <h3>Submit an Enquiry</h3>
+          <p>
+            <strong
+              >Submit an enquiry for quick assistance<br />
+              and personalized solutions.</strong
+            >
+          </p>
+        </div>
+
+        <div class="service-container">
+          <div class="border-img">
+            <img src="images/Icon-For-Our-Services/steering-wheel.png" alt="" />
+          </div>
+          <h3>Pick Up & Drive</h3>
+          <p>
+            <strong
+              >Convenient pick-up location, drive away <br />
+              hassle-free today.</strong
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------- " Footer Section " ----------------------------------->
+
+    <footer class="footer">
+      <section class="section-1">
+        <div>
+          <div class="logo-footer">
+            <button class="logo-button">
+              <a href="Home Page - Car Rental.html">
+                <img src="images/Logo Tap/car-placeholder.png" alt="" />
+                <span>Mr. Car Rental</span>
+              </a>
+            </button>
+            <p>
+              Find the perfect vehicle for any trip with Mr. Car <br />
+              Rental's affordable and reliable service.
+            </p>
+          </div>
+          <div class="all-logo-accounts">
+            <a
+              href="https://wa.me/012714700997"
+              target="_blank"
+              class="social-media">
+              <img
+                src="images/Logos-social-Media/6677ef5c2f59c6148debf814_whatsapp.png"
+                alt=""
+                class="image"
+            /></a>
+
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="social-media">
+              <img
+                src="images/Logos-social-Media/6677ef5c2f59c6148debf7fa_facebook-app-symbol-p-500.png"
+                alt=""
+                class="image"
+            /></a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="social-media">
+              <img
+                src="images/Logos-social-Media/6677ef5c2f59c6148debf7f9_instagram.png"
+                alt=""
+                class="image"
+            /></a>
+
+            <a href="https://x.com" target="_blank" class="social-media"
+              ><img
+                src="images/Logos-social-Media/6677ef5c2f59c6148debf7f8_twitter.png"
+                alt=""
+                class="image"
+            /></a>
+          </div>
+        </div>
+
+        <div class="news-letter">
+          <h2>Subscribe to our newsletter</h2>
+          <div class="input-footer">
+            <input type="email" id="email" name="email" required />
+            <label for="email" class="label">XXXXXX@gmail.com</label>
+          </div>
+          <button>Submit</button>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <hr />
+
+      <div class="pages-footer">
+        <div class="section-1-footer">
+          <h2>Our Services</h2>
+          <a href="/Home Page - Car Rental.html#Home_Page"
+            ><h3 id="home">Home</h3></a
+          >
+          <a href=""><h3>About Us</h3></a>
+          <a href="/Home Page - Car Rental.html#our-fleet"
+            ><h3>Our Fleet</h3></a
+          >
+          <a href="/Enquiry Form/Enquiry Form.html#contact-us"><h3>Contact Us</h3></a>
+        </div>
+        <div class="section-2-footer">
+          <h2>Get In Touch</h2>
+          <a href="tel:+20-127 147 0997"><h3>+20-127 147 0997</h3></a>
+          <a href="mailto:info@mr.car-rental.org"
+            ><h3>info@mr.car-rental.org</h3></a
+          >
+          <a href="https://maps.app.goo.gl/NU7jfnhfXSKfnMUy7" target="_blank"
+            ><h3>
+              <div id="section-2-footer-h3">
+                123 Ma'adi Kournesh Street, Ma'adi <br />
+                Cairo, Cairo, Egypt
+              </div>
+            </h3>
+          </a>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <hr />
+
+      <div class="end-footer">
+        <h6>
+          <strong>Copyright © Mr. Car Rental | Powered by</strong>
+          <a
+            href="https://www.linkedin.com/in/kyrillos-samy-38b110222/"
+            target="_blank">
+            <span><strong>Kyrillos Samy</strong></span>
+          </a>
+        </h6>
+      </div>
+    </footer>
+
+    <!--------------------------------------- " Bootstrap Links " ---------------------------------->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+    <script src="Arrow Cards.js"></script>
+  </body>
+</html>

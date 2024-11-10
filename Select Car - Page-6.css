@@ -1,0 +1,1161 @@
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Thicccoboi", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient( to top right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../images/Background-Page-Select-Car/5-luxury-features-to-look-for-in-a-rental-car-2-transformed.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    filter: brightness(100%);
+    height: 100vh;
+}
+
+.loading-icon {
+    position: absolute;
+    top: 48%;
+    left: 79%;
+}
+
+.header .p1 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 550;
+    color: #fff;
+    top: 60%;
+    left: 71%;
+}
+
+.header .p2 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 550;
+    color: #086d16;
+    top: 60%;
+    left: 89.6%;
+}
+
+.header h2 {
+    position: absolute;
+    font-size: 37px;
+    font-weight: 600;
+    color: #fff;
+    left: 4.5%;
+    top: 45%;
+    letter-spacing: 1px;
+}
+
+.header .teal {
+    color: #ff0000;
+    font-size: 50px;
+}
+
+.animated-image {
+    position: absolute;
+    right: 5%;
+    top: 120%;
+    transform: rotateY(180deg);
+}
+
+.header-h1-h3-p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    bottom: 45%;
+}
+
+.header h3 {
+    position: absolute;
+    color: #fff;
+    top: 33%;
+    left: 70%;
+}
+
+.header-h1-h3-p h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    margin-bottom: 150px;
+    margin-left: -60%;
+}
+
+.header-h1-h3-p h1 span {
+    color: #ff0000 ;
+    font-size: 70px;
+}
+
+.header .header-h1-h3-p p {
+    position: absolute;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    left: 30px;
+    right: 55%;
+    top: 260px;
+}
+
+p .span {
+    margin-left: -30px;
+}
+
+p .span span {
+    color: #ff0000;
+}
+
+.span .span-etc {
+    color: #fff;
+    margin-left: -506px;
+}
+
+.header a {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    padding: 12px 24px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+    transition: transform ease 0.5s, color ease 0.5s, background-color ease 0.5s;
+}
+
+.header a:hover {
+    transform: scale(0.95);
+    background-color: #e5e5e6e7;
+    color: #ff0000;
+    box-shadow: 0px 4px 6px 0px rgba(255, 255, 255, 0.2);
+}
+
+/*--------------------------------------------------- " Section - Car Details " ------------------------------------------------*/
+
+.section-2 {
+    position: relative;
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 170vh;
+}
+
+.images {
+    width: 46%;
+}
+
+.big-image img{
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 98.2%;
+    border-radius: 15px;
+}
+
+.small-image img {
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 22.6%;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.all-description {
+    position: absolute;
+    left: 58%;
+    top: 0;
+}
+
+.all-description h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.all-icon-section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    background-color: rgba(255,255,255,0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-section-2 {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 6px 12px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icon-section-2 h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #616066;
+}
+
+.icon-section-2 img {
+    width: 20px;
+}
+
+.all-description p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #616066;
+}
+
+.hr-up {
+    border: solid 1px #a7a7a7;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.specification-sections {
+    position: absolute;
+    top: 400px;
+}
+
+.specification-sections h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.specification-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ecececa8;
+    border-radius: 10px;
+    padding: 17px;
+    width: 560px;
+}
+
+.specification-section h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hr-down {
+    border: solid 1px #a7a7a7;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.features-desc {
+    margin-top: 5px;
+}
+
+.features-desc h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+.feature {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    grid-column-gap: 20px;
+}
+
+.feature h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.feature img {
+    width: 25px;
+}
+
+.enquiry-section {
+    border: 2px solid #ccc;
+    width: 45%;
+    margin-top: 65px;
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.enquiry-section h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.enquiry-section h4 span {
+    font-size: 20px;
+    font-weight: 550;
+    color: #616066;
+}
+
+.enquiry-section hr {
+    border: solid 1px #a7a7a7;
+    margin-bottom: 40px;
+}
+
+.enquiry-section h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px; 
+}
+
+.enquiry-section .contact-us {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 40px;    
+}
+
+.enquiry-section .button-1 {
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: transform ease 0.5s;
+}
+
+.button-1 a {
+    padding: 16px 30px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    transition: background-color ease 0.5s, color ease 0.5s;
+}
+
+.enquiry-section .button-1 a:hover {
+    background-color: #e5e5e6e7;
+    color: #ff0000;
+}
+
+.button-1:hover {
+    transform: scale(0.95);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.enquiry-section .button-1 a {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5;
+    text-decoration: none;
+    color: #fff;
+}
+
+.enquiry-section .contacts .button-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    align-items: center;
+    background-color: #ffffff00;
+}
+
+.enquiry-section .contacts .button-3 {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    align-items: center;
+    background-color: #ffffff00;
+}
+
+.contacts .button-2 a {
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 1.5;
+    text-decoration: none;
+    color: #1a1a1a;
+    padding-right: 0px;
+    padding-left: 10px;
+    transition: color ease 0.5s, transform ease 0.5s;
+}
+
+.contacts .button-2 i {
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.contacts .button-3 a {
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 1.5;
+    text-decoration: none;
+    color: #1a1a1a;
+    padding-left: 5px;
+    transition: color ease 0.5s, transform ease 0.5s;
+}
+
+.contacts .button-3 i {
+    font-size: 30px;
+    color: #ff0000;
+    padding-right: 10px;
+}
+
+.contacts a:hover {
+    color: #ff0000;
+    transform: scale(0.95);
+}
+
+/*--------------------------------------------------- " Section - Car Types " ------------------------------------------------*/
+
+.section-medium {
+    max-width: 100%;
+    position: relative;
+}
+
+.section-medium h1 {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    left: 100px;
+    border-bottom: 3.5px solid #ff0000;
+}
+
+.all-dropdown {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 65px;
+    margin-right: 65px;
+    top: 95px;
+}
+
+.dropdown-list {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-content {
+    position: relative;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 10px;
+    width: 280px; 
+    height: 60px;
+    align-items: center;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: background-color ease 0.4s, color ease 0.4s;
+    cursor: pointer;
+    display: block;
+}
+
+.button-content i {
+    position: absolute;
+    font-size: 20px;
+}
+
+.button-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-content h4, i {
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 650;
+}
+
+.button-content span, i {
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 17px;
+    font-weight: 350;
+}
+
+.button-content i {
+    margin-left: 310px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 17px;
+    background-color: #f1f1f1;
+    width: 280px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding-left: 0px ;
+    z-index: 9999999;
+}
+
+.dropdown-content a {
+    color: black;  
+    padding: 16px 16px;  
+    text-decoration: none;  
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.dropdown-list:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-list:hover button {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.button-content:hover i {
+    transform: rotate(180deg);
+}
+
+/*--------------------------------------- " Section featured-car " ------------------------------------------*/
+
+.our-dealings {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.our-dealings h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ff0000;
+}
+
+.our-dealings h3 {
+    text-align: center;
+}
+
+.featured-car {
+    position: relative;
+    background-color: #dcdbdb78;
+    height: 110vh;
+    padding-top: 60px;
+}
+
+.featured-car .head-of-featured {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding-top: 140px;
+}
+
+/* .head-of-featured button {
+    width: 120px;
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease transform 0.5s, ease background-color 0.5s, ease color 0.5s;
+    line-height: 20px;
+}
+
+.head-of-featured button:hover {
+    background-color: #a9a9ac9d;
+    transform: scale(0.95);
+    color: #ff0000;
+} */
+
+.cards-wrapper {
+    overflow: hidden; /* Hide the overflowing part of the cards */
+    width: 87%; /* Adjust according to your layout */
+    margin: auto;
+    margin-top: -50px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 0.5s ease-in-out; /* Smooth scrolling */
+    width: max-content; /* Ensure the container expands with cards */
+    gap: 15px;
+}
+
+.card-container {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-right: 20px; /* Space between cards */
+    padding: 6px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.left-arrow {
+    position: absolute;
+    font-size: 30px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 57px;
+    width: 55px;
+    padding-top: 9px;
+    padding-right: 4px;
+    padding-bottom: 50px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 59%;
+    left: 1.8%;
+    transition: transform ease 0.5s, background-color ease 0.5s, color ease 0.5s;
+}
+
+.right-arrow {
+    position: absolute;
+    font-size: 30px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 57px;
+    width: 55px;
+    padding-top: 9px;
+    padding-right: 4px;
+    padding-bottom: 50px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 59%;
+    right: 1.8%;
+    transition: transform ease 0.5s, background-color ease 0.5s, color ease 0.5s;
+}
+
+.left-arrow:hover {
+    background-color: #e5e5e6e7;
+    color: #ff0000;
+    transform: scale(0.95);
+    box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.2);
+    transform: translateX(-7px);
+}
+
+.right-arrow:hover {
+    background-color: #a9a9ac9d;
+    color: #ff0000;
+    transform: scale(0.95);
+    box-shadow: 0px 12px 16px 0px rgba(0, 0, 0, 0.2);
+    transform: translateX(7px);
+}
+  
+.left-arrow {
+    margin-right: 10px;
+}
+  
+.right-arrow {
+    margin-left: 10px;
+}
+
+.card-container .card-image {
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative; 
+}
+
+.card-image img {
+    border-radius: 16px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transition: ease 0.5s;
+    object-fit: cover;
+}
+
+.card-image img:hover {
+    transform: scale(0.96);
+}
+
+.card-image h5 {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.card-latest {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    flex-flow: column;
+    padding: 20px 10px 10px;
+    display: flex;
+}
+
+.mid-card h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.mid-card h6 {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    margin-top: 18px;
+}
+
+.mid-card strong {
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mid-card span {
+    color: #616066;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.card-icon {
+    background-color: #f6f6f6;
+    border-radius: 12px;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 6px 20px;
+    display: flex;
+}
+
+.card-icon-details {
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.card-icon-details img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+    width: 20px;
+}
+
+.card-icon-details h6 {
+    color: #616066;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-button {
+    background-color: #ff0000;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: all 0.2s;
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    transition: ease 0.5s;
+}
+
+.card-button-a{
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #ff0000;
+    border-radius: 30px;
+    text-align: center;
+    padding: 9px 15px;
+    display: inline-block;
+    transition: ease transform 0.5s, ease bachground-color 0.5s, ease color 0.5s;
+}
+
+.card-button:hover, .card-button-a:hover {
+    background-color: #a9a9ac9d;
+    transform: scale(0.95);
+    color: #ff0000;
+}
+
+/*--------------------------------------- " Footer Section " ----------------------------------*/
+
+footer {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.848);
+    position: relative;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-top: 80px;
+}
+
+.logo-button {
+    background-color: #ffffff00;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 270px;
+    text-decoration: none;
+    transition: transform ease 0.5s;
+}
+
+.logo-button:hover {
+    transform: scale(0.95);
+}
+
+.logo-button span, a {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo-button span {
+    padding-left: 4px;
+    margin-top: 5.5px;
+}
+
+.logo-button a {
+    text-decoration: none;
+}
+
+.logo-footer span {
+    color: #fff;
+}
+
+.logo-footer img {
+    width: 13.5%;
+    margin-bottom: 8px;
+}
+
+.logo-footer p {
+    margin: 10px;
+    margin-bottom: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+
+.all-logo-accounts {
+    display: flex;
+    grid-column-gap: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.icon {
+    background-color: #ff0000;
+    width: 7%;
+    height: 1px;
+    border-radius: 40%;
+    padding: 8px;
+    transition: transform ease 0.5s;
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 20px;
+    margin-bottom: 6px;
+}
+
+.social-media {
+    background-color: #ff0000;
+    border-radius: 100%;
+    padding: 8px;
+    transition: all .2s;
+    max-width: 100%;
+    display: inline-block;
+    transition: transform ease 0.5s, box-shadow 0.7s;
+}
+
+.social-media:hover {
+    transform: scale(0.95);
+    box-shadow: 0 4px 6px 0px rgba(255, 255, 255, 0.2);
+}
+
+.image {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.image img {
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+    border: 0;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.news-letter {
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+.news-letter h2 {
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.news-letter input{
+    background-color: #f5f5f5;
+    color: #616066;
+    border: 1px #000;
+    border-radius: 10px;
+    height: 60px;
+    width: 400px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.input-footer {
+    position: relative;
+    width: 400px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.input-footer input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input-footer label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+    transition: ease 0.7s;
+    pointer-events: none; /* Prevents clicking on label */
+}
+
+.input-footer input:hover ~label,
+.input-footer input:valid ~label{
+    opacity: 0%;
+    top: 4%;
+}
+
+.news-letter button {
+    width: 100px;
+    height: 45px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: transform ease 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+}
+
+.news-letter button:hover {
+    transform: scale(0.95);
+    box-shadow: 0 4px 6px 0px rgba(255, 255, 255, 0.2);
+    background-color: #b6b6b7f1;
+    color: #ff0000;
+}
+
+.footer hr {
+    width: 80%;
+    margin-left: 10%;
+    border: solid 1px #fff;
+    color: #fff;
+    background-color: #fff;
+    opacity: 4;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.pages-footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.section-1-footer h2 {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.section-1-footer h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #d6d6d6;
+    margin-right: 40px;
+}
+
+.section-1-footer #home {
+    color: #ff0000;
+    margin-right: 98px;
+    margin-bottom: 10px;
+}
+
+.section-1-footer .about-fleet {
+    margin-right: 70px;
+    margin-bottom: 10px;
+}
+
+.section-1-footer #contact-us {
+    margin-right: 60px;
+}
+
+.section-2-footer h2 {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 0.5px;
+}
+
+.section-2-footer h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #d6d6d6;
+}
+
+.section-2-footer #phone {
+    margin-right: 152px;
+    margin-bottom: 10px;
+}
+
+.section-2-footer #email {
+    margin-right: 115px;
+    margin-bottom: 10px;
+}
+
+#section-2-footer-h3 {
+    line-height: 25px;
+}
+
+.pages-footer a {
+    text-decoration: none;
+}
+
+.pages-footer h3 {
+    transition: transform ease 0.5s;
+}
+
+.pages-footer h3:hover {
+    color: #ff0000;
+    transform: scale(0.95);
+}
+
+.end-footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.end-footer h4 {
+    margin-left: 560px;
+    color: #d6d6d6;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.end-footer a {
+    text-decoration: none;
+}
+
+.end-footer span {
+    color: #ff0000;
+    transition: color ease 0.5s;
+}
+
+.end-footer #kyrillos-samy {
+    position: absolute;
+    width: 13.1%;
+    bottom: 34.9px;
+    left: 100%;
+}
+
+.end-footer span:hover {
+    color: #d6d6d6;
+}
